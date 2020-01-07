@@ -35,7 +35,7 @@ div.gallery {
     margin: 120px;
     border: 1px solid #ccc;
     float: left;
-    width: 500px;
+    width: 80%;
 }
 
 div.gallery:hover {
