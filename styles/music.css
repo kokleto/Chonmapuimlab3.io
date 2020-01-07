@@ -1,0 +1,95 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.active {
+    background-color: lightgreen;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+div.gallery {
+    margin: 120px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 500px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery iframe {
+    width: 100%;
+    height: 350px;
+}
+
+div.desc {
+    font-family: 'Raleway', cursive;
+    padding: 15px;
+    text-align: center;
+}
+
+hr.main {
+    border: 2px solid rgb(73, 73, 73);
+    border-radius: 5px;
+    clear: both;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Raleway', cursive;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    clear: both;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+p {
+    font-family: 'Raleway', cursive;
+    text-align: center;
+    font-size: 35px;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

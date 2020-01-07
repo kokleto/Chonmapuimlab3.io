@@ -1,0 +1,98 @@
+                    ul {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        overflow: hidden;
+                        background-color: #333;
+                    }
+                    
+                    body {
+                        background-repeat: no-repeat;
+                        background-attachment: fixed;
+                        background-size: cover;
+                    }
+                    
+                    .active {
+                        background-color: lightgreen;
+                    }
+                    
+                    li {
+                        float: left;
+                    }
+                    
+                    li a {
+                        display: block;
+                        color: white;
+                        text-align: center;
+                        font-family: 'Raleway', cursive;
+                        font-weight: normal;
+                        font-size: 25px;
+                        line-height: 29px;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                    }
+                    
+                    li a:hover {
+                        background-color: #111;
+                    }
+                    
+                    hr.main {
+                        border: 2px solid rgb(73, 73, 73);
+                        border-radius: 5px;
+                    }
+                    
+                    img {
+                        border-radius: 10px;
+                    }
+                    
+                    h1,
+                    h2 {
+                        font-family: 'Raleway', sans-serif;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 48px;
+                        text-align: center;
+                        color: black;
+                    }
+                    
+                    p {
+                        text-align: center;
+                        font-family: 'Raleway', cursive;
+                        font-size: 35px;
+                    }
+                    
+                    table,
+                    td,
+                    th {
+                        border: 1px solid black;
+                    }
+                    
+                    table {
+                        border-collapse: collapse;
+                        width: 100%;
+                    }
+                    
+                    td {
+                        height: 50px;
+                        vertical-align: bottom;
+                    }
+                    
+                    h2,
+                    th,
+                    td {
+                        font-family: 'Raleway', sans-serif;
+                        padding: 20px;
+                        text-align: center;
+                    }
+                    
+                    th {
+                        background-color: lightgoldenrodyellow;
+                    }
+                    
+                    tr:nth-child(even) {
+                        background-color: lightgrey;
+                    }
+                    
+                    tr:nth-child(odd) {
+                        background-color: #fff;
+                    }
